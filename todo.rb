@@ -24,7 +24,7 @@ when "complete"
   index = string.to_i
   tasks[index - 1].complete = 1
   tasks[index - 1].save
-  puts "set task to complete"
+  puts "that task must be completed."
 when "delete"
   tasks = Task.all
   index = string.to_i
